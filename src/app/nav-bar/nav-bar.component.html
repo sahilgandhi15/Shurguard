@@ -1,0 +1,18 @@
+<div class="section">
+  <div class="main">
+    <div class="row">
+      <div class="col-sm-12">
+        <ul>
+          <li *ngFor="let item of navOptions; let first = first;">
+            <span *ngIf="first" class="jitLogo">
+             <img class="headerlogo" src="./assets/logo.jpg"> {{item}}
+            </span>
+            <span *ngIf="!first">
+              <a>{{item}}</a>
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
