@@ -1,0 +1,35 @@
+#MyImage {
+    position: relative;
+    margin: 20px auto 0;
+    width: 100%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#theImage {
+    display: block;
+    position: relative;
+    width: 250px;
+    height: 200px;
+    border: 3px solid grey;
+}
+
+#myButton {
+    position: absolute;
+    left: 90px;
+    top: 90px;
+    background-color: grey;
+}
+
+ul {
+    list-style-type: none;
+    height: 300px;
+    margin: 1px 100px;
+    left: 300px;
+}
+
+ul li {
+    float: left;
+    display: inline;
+    margin-left: 120px;
+}
