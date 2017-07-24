@@ -1,7 +1,12 @@
 .section {
-    background-color: grey;
+    background-color: lightgray;
 }
+
 .about {
     padding: 10px 300px;
     font-size: larger;
+}
+
+.heading {
+    margin-left: 35%;
 }

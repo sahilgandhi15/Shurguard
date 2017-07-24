@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 enum nav {
   About,
@@ -13,9 +14,23 @@ enum nav {
 })
 export class NavBarComponent implements OnInit {
   navOptions = ['JIT Storage', 'Home', 'Units', 'Contact'];
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
 
+  navigation(url: string) {
+    if (url === 'Units') {
+      this.router.navigate(['/units']);
+    }
+    if (url === 'Home') {
+      this.router.navigate(['/jit']);
+    }
+    if (url === 'JIT Storage') {
+      this.router.navigate(['/jit']);
+    }
+    if (url === 'Contact') {
+      this.router.navigate(['/contact']);
+    }
+  }
 }
