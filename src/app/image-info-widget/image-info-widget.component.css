@@ -25,11 +25,11 @@ ul {
     list-style-type: none;
     height: 300px;
     margin: 1px 100px;
-    left: 300px;
+    left: 500px;
 }
 
 ul li {
     float: left;
     display: inline;
-    margin-left: 120px;
+    margin-left: 250px;
 }

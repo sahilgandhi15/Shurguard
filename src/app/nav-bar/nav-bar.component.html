@@ -8,7 +8,7 @@
              <img class="headerlogo" src="./assets/logo.jpg"> {{item}}
             </span>
             <span *ngIf="!first">
-              <a>{{item}}</a>
+              <a (click)="navigation(item)">{{item}}</a>
             </span>
           </li>
         </ul>

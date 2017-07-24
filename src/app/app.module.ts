@@ -1,3 +1,4 @@
+import { AppRoutingModule } from './app-routing.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -7,6 +8,10 @@ import { ContainerComponent } from './container/container.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { AboutComponent } from './about/about.component';
 import { ImageInfoWidgetComponent } from './image-info-widget/image-info-widget.component';
+import { UnitsComponent } from './units/units.component';
+import { ContactComponent } from './contact/contact.component';
+import { StorageTipsComponent } from './storage-tips/storage-tips.component';
+import { WhyChooseUsComponent } from './why-choose-us/why-choose-us.component';
 
 @NgModule({
   declarations: [
@@ -15,10 +20,15 @@ import { ImageInfoWidgetComponent } from './image-info-widget/image-info-widget.
     ContainerComponent,
     NavBarComponent,
     AboutComponent,
-    ImageInfoWidgetComponent
+    ImageInfoWidgetComponent,
+    UnitsComponent,
+    ContactComponent,
+    StorageTipsComponent,
+    WhyChooseUsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
