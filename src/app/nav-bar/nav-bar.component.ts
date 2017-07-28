@@ -13,7 +13,7 @@ enum nav {
   styleUrls: ['./nav-bar.component.css']
 })
 export class NavBarComponent implements OnInit {
-  navOptions = ['JIT Storage', 'Home', 'Units', 'Contact'];
+  navOptions = [ 'Home', 'Units', 'Contact'];
   constructor(private router: Router) { }
 
   ngOnInit() {

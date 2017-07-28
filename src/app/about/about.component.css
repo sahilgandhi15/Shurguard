@@ -3,10 +3,11 @@
 }
 
 .about {
-    padding: 10px 300px;
+    /* padding: 10px 300px; */
     font-size: larger;
+    padding: 20px 20px;
 }
 
 .heading {
-    margin-left: 35%;
+    text-align: center;
 }
