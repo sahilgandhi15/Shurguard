@@ -4,11 +4,13 @@
 }
 
 .map {
-    float: left;
+    float: right;
+    padding: 10px 10px;
 }
 
 .contact {
-    margin-top: 200px;
-    float: right;
-    margin-right: 300px;
+    margin-top: 10%;
+    float: left;
+    margin-right: 50%;
+    margin-left: 2%;
 }

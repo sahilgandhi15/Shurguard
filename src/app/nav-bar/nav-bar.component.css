@@ -1,13 +1,20 @@
-ul li {
+/* .nav li {
     float: left;
-    margin-left: 10%;
+    margin-left: 15%;
     cursor: pointer;
-}
-.jitLogo{
+    display: inline;
+} */
+
+.jitLogo {
     font-size: 45px;
+    color: white;
 }
 
-.headerlogo{
+a {
+    color: white;
+}
+
+.headerlogo {
     height: 50px;
 }
 
@@ -17,15 +24,28 @@ ul li {
 
 ul {
     list-style-type: none;
+    width: 100%;
 }
 
 .section {
-    background-color: black;
+    /* background-color: black; */
     color: white;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    /* padding-top: 3%; */
+    /* padding-bottom: 3%; */
     opacity: .6;
     position: fixed;
-    width: 100%; 
-    font-size: 25px;   
+    width: 100%;
+    font-size: 25px;
+    z-index: 1000;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+}
+
+li {
+    cursor: pointer;
+    text-align: center;
+}
+
+ul::before li {
+    border-bottom: 1px solid white;
 }
