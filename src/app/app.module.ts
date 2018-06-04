@@ -12,6 +12,7 @@ import { UnitsComponent } from './units/units.component';
 import { ContactComponent } from './contact/contact.component';
 import { StorageTipsComponent } from './storage-tips/storage-tips.component';
 import { WhyChooseUsComponent } from './why-choose-us/why-choose-us.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { WhyChooseUsComponent } from './why-choose-us/why-choose-us.component';
     UnitsComponent,
     ContactComponent,
     StorageTipsComponent,
-    WhyChooseUsComponent
+    WhyChooseUsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
