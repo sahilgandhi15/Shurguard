@@ -1,16 +1,14 @@
-.headerImage {
-    width: 100%;
-    height: 400px;
-}
-
 .map {
-    float: right;
-    padding: 10px 10px;
+  float: right;
+  padding: 10px 10px;
+  padding: 2%;
 }
 
 .contact {
-    margin-top: 10%;
-    float: left;
-    margin-right: 50%;
-    margin-left: 2%;
+  float: left;
+  padding: 2%;
+}
+
+.section {
+  width: 100%;
 }

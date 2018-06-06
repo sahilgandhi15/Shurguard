@@ -1,4 +1,14 @@
 .footer {
   background-color: black;
   color: white;
+  text-align: center;
 }
+
+.footerComp {
+  position: relative;
+  bottom: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+
