@@ -1,28 +1,41 @@
-<img class="headerImage" src="./assets/contact.jpg" />
-<div class="contact">
+<app-main-header [imagePath]="'./assets/contact.jpg'"></app-main-header>
+
+<div class="section">
   <div class="row">
     <div class="col-sm-12">
-      <label for="email">Email -</label>
-      <a href="mailto:sahilgandhi15@gmail.com" id="email">jitStorage@gmail.com</a>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm-12">
-      <label for="contact">Contact No. -</label>
-      <span id="contact">905-629-1660</span>
-    </div>
-  </div>
-  <div class="row">
-      <div class="col-sm-12">
-        <label for="contact">Address. -</label>
-        <span id="contact">1660 Matheson Blvd E.<br>
-          Mississauga, ON. L4W 1Y4. Canada
-        </span>
+
+      <div class="contact">
+        <div class="row">
+          <div class="col-sm-12">
+            <label for="email">Email -</label>
+            <a href="mailto:sahilgandhi15@gmail.com"
+              id="email">jitStorage@gmail.com</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <label for="contact">Contact No. -</label>
+            <span id="contact">905-629-1660</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <label for="contact">Address. -</label>
+            <span id="contact">1660 Matheson Blvd E.
+              <br> Mississauga, ON. L4W 1Y4. Canada
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="map">
+        <iframe width="400"
+          height="300"
+          frameborder="1"
+          src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJEeoDZpQ4K4gRG7SKusJckVI&key=AIzaSyBVvM7tl84jNtIgAMjWuEtt90Inplr7Zm4"
+
+          allowfullscreen></iframe>
       </div>
     </div>
-</div>
-<div class="map">
-  <iframe width="400" height="300" frameborder="1" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJEeoDZpQ4K4gRG7SKusJckVI&key=AIzaSyBVvM7tl84jNtIgAMjWuEtt90Inplr7Zm4"
-    allowfullscreen></iframe>
+  </div>
 </div>
 <app-footer></app-footer>

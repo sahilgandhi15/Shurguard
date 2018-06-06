@@ -1,51 +1,39 @@
-/* .nav li {
-    float: left;
-    margin-left: 15%;
-    cursor: pointer;
-    display: inline;
-} */
-
 .jitLogo {
-    font-size: 45px;
-    color: white;
+  font-size: 45px;
+  color: white;
 }
 
 a {
-    color: white;
+  color: white;
 }
 
 .headerlogo {
-    height: 50px;
+  height: 50px;
 }
 
 .main {
-    background-color: black;
+  background-color: black;
 }
 
 ul {
-    list-style-type: none;
-    width: 100%;
+  list-style-type: none;
+  width: 100%;
 }
 
 .section {
-    /* background-color: black; */
-    color: white;
-    /* padding-top: 3%; */
-    /* padding-bottom: 3%; */
-    opacity: .6;
-    position: fixed;
-    width: 100%;
-    font-size: 25px;
-    z-index: 1000;
-    /* padding-left: 10px;
-    padding-right: 10px; */
+  color: white;
+  opacity: .6;
+  position: fixed;
+  width: 100%;
+  font-size: 25px;
+  z-index: 1000;
 }
 
 li {
-    cursor: pointer;
-    text-align: center;
+  cursor: pointer;
+  text-align: center;
 }
 
 ul::before li {
-    border-bottom: 1px solid white;
+  border-bottom: 1px solid white;
 }
