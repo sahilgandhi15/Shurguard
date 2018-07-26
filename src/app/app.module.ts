@@ -13,7 +13,6 @@ import { ContactComponent } from './contact/contact.component';
 import { StorageTipsComponent } from './storage-tips/storage-tips.component';
 import { WhyChooseUsComponent } from './why-choose-us/why-choose-us.component';
 import { FooterComponent } from './footer/footer.component';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,11 +27,8 @@ import { FooterComponent } from './footer/footer.component';
     WhyChooseUsComponent,
     FooterComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
