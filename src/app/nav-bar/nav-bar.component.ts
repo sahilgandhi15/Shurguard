@@ -24,10 +24,10 @@ export class NavBarComponent implements OnInit {
       this.router.navigate(['/units']);
     }
     if (url === 'Home') {
-      this.router.navigate(['/jit']);
+      this.router.navigate(['/shurguard']);
     }
-    if (url === 'JIT Storage') {
-      this.router.navigate(['/jit']);
+    if (url === 'Shurguard Storage') {
+      this.router.navigate(['/shurguard']);
     }
     if (url === 'Contact') {
       this.router.navigate(['/contact']);

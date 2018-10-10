@@ -8,11 +8,11 @@ import { RouterModule } from '@angular/router';
 export const AppRoutingModule = RouterModule.forRoot([
     {
         path: '',
-        redirectTo: '/jit',
+        redirectTo: '/shurguard',
         pathMatch: 'full'
     },
     { path: 'units', component: UnitsComponent },
-    { path: 'jit', component: ContainerComponent },
+    { path: 'shurguard', component: ContainerComponent },
     { path: 'contact', component: ContactComponent },
     { path: 'storage-tips', component: StorageTipsComponent }
 ]);

@@ -1,6 +1,6 @@
 import { browser, by, element } from 'protractor';
 
-export class JitStoragePage {
+export class ShurguardStoragePage {
   navigateTo() {
     return browser.get('/');
   }

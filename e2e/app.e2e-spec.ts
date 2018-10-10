@@ -1,10 +1,10 @@
-import { JitStoragePage } from './app.po';
+import { ShurguardStoragePage } from './app.po';
 
-describe('jit-storage App', () => {
-  let page: JitStoragePage;
+describe('shurguard-storage App', () => {
+  let page: ShurguardStoragePage;
 
   beforeEach(() => {
-    page = new JitStoragePage();
+    page = new ShurguardStoragePage();
   });
 
   it('should display welcome message', () => {
